@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Online Calculator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Add a CSS file for styling -->
     <script src="calculator.js" defer></script>
 </head>
 <body>
-    <h1>Do all the calculations you wish!</h1>
+    <div class="calculator"> <!-- Wrap everything in a container div with class "calculator" -->
+        <h1>Calculator</h1> <!-- Add a heading -->
+        <div class="display"></div> <!-- Add a display for the input and result -->
+        <div class="buttons"> <!-- Create a container for the buttons -->
+            <!-- Create buttons for numbers and operators -->
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="operator">/</button>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="operator">*</button>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="operator">-</button>
+            <button class="button">0</button>
+            <button class="operator">.</button>
+            <button class="operator">=</button>
+            <button class="operator">+</button>
+            <button class="operator">C</button>
+        </div>
+    </div>
 </body>
 </html>
