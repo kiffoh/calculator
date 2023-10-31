@@ -38,7 +38,7 @@ h1 {
     gap: 10px;
 }
 
-.button, .operator {
+.button, .operator, .equal, .clear {
     padding: 10px;
     font-size: 20px;
     border: none;
@@ -46,10 +46,10 @@ h1 {
     border-radius: 5px;
 }
 
-.operator {
+.operator, .equal, .clear {
     background-color: #FFA500;
 }
 
-.operator:active, .button:active {
+.operator:active, .button:active, .equal:active, .clear:active {
     background-color: #ccc;
 }
